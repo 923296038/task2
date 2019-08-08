@@ -22,10 +22,10 @@
 </head>
 <body>
 <h3>
-    <a href="<%=basePath%>/AllStudent">显示学生</a>
-        <a href="<%=basePath%>/toStudentMore">添加学生</a>
-    <a href="<%=basePath%>/json">测试json</a>
-    <%--    <a href="<%=basePath%>/jump">学生管理界面</a>--%>
+    <a href="<%=basePath%>/AllStudent">显示学生</a><br>
+    <a href="<%=basePath%>/toStudentMore">添加学生</a><br>
+    <a href="<%=basePath%>/testJson2">用json返回所有学生</a>
+
 </h3>
 </body>
 </html>

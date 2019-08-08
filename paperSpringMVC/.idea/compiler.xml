@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="paperSpringMVC" />
         <module name="task2" />
+        <module name="Task" />
       </profile>
     </annotationProcessing>
   </component>

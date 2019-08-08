@@ -52,6 +52,6 @@
         </tr>
     </c:forEach>
 </table>
-
+<a href="/Task/AllStudent">点击返回学生列表</a>
 </body>
 </html>

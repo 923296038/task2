@@ -12,14 +12,15 @@
     <title>Title</title>
 </head>
 <body>
-
+操作失败!<br>
+错误原因:<br>
 <%--error接受错误信息--%>
 <c:if test="${allErrors!=null}">
     <c:forEach items="${allErrors}" var="Error">
         ${Error.defaultMessage}
     </c:forEach>
 </c:if>
-<a href="/AllStudent">返回所有学生</a>
+<a href="/Task/AllStudent">返回所有学生</a>
 
 <%--&lt;%&ndash;json接受&ndash;%&gt;--%>
 <%--<json:object>--%>
